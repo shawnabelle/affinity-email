@@ -1,0 +1,152 @@
+// These are the styles to make some of the templates look extra nice.
+// Feel free to remove these styles for production!
+
+// Body Styles 
+body,
+html, 
+.body {
+  background: #222222 !important;
+}
+.row {
+  background-color: #2c2c2c;
+}
+.header {
+  background-color: #131313;
+  background: #131313;
+  padding-bottom: 0 auto;
+  td.columns, td.column, th.columns, th.column {
+    padding-bottom: 0px;
+  }
+  .logo {
+    padding: 0 auto;
+    height: 20px;
+    vertical-align: middle;
+  }
+  .header-info h1 {
+    color: #757575;
+    font-size: 12px;
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    vertical-align: middle;
+    padding-left: 0;
+    padding-right: 0;
+ 
+  }
+}
+.top-image {
+  background-color: #2C2C2C;
+  background: #2C2C2C;
+  td.columns, td.column, th.columns, th.column{
+    padding-bottom: 0px;
+    background-clip: border-box;
+  }
+}
+
+.paragraph-info 
+ {
+  background-color: #262626;
+  background: #262626;
+  border-left: 3.5px solid #4140A1;
+  border-right: 3.5px solid #4140A1;
+  font-size: 18px;
+  font-weight: 600;
+} 
+p {
+  color: #828487;
+  font-size: 14px;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 30px;
+  padding-left: 30px;
+  margin: 0px;
+}
+  span {
+    color: #ffffff;
+    text-align: center;
+    display: block;
+    &.say-hello {
+      font-size: 20px;
+      padding-bottom: 10px; 
+    } 
+}
+
+td.columns, td.column, th.columns, th.column {
+  padding-bottom: 20px;
+}
+.learn-more {
+background: #262626;
+padding-top: 10px;
+}
+a
+{
+  padding: 30px;
+  color: #fff;
+}
+.button {
+  display: inline-block;
+  background-color: #224739;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: 3px solid #215941;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 300;
+  text-align: center;
+  a:hover {
+    color: #0098F3 !important; 
+  }
+}
+
+
+.bottom-img {
+  padding-bottom: 10px;
+}
+.social-icons {
+  background-color: black;
+  background: black;
+ .columns {
+  padding-bottom: 10px;
+  padding-right:15px;
+  padding-left: 15px;
+  padding-top: 10px;
+ }
+ .menu_divider {
+  display: block; 
+  height: 50px; 
+  width: 1px; 
+  background: #fff;
+  background-color: #fff;
+  float: right;
+}  
+img {
+  display: block;
+ height: 45px;
+ width: 45px;
+ margin-bottom: 0px;
+ padding-left: 0px;
+   }
+}
+ .footer-info {
+  background-color: black;
+  background-color: black;
+ p {
+    text-align: center;
+    color: #828487;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+  }
+  a , .click-here {
+    color: #828487;
+    padding: 0px;
+    &:hover {
+      color: #0098F3 !important;  
+    }
+  }
+}
+
+
